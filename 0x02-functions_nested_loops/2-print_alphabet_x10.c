@@ -1,11 +1,8 @@
 #include "main.h"
-
 /*
- * print_alphabet_x10(void) - prints alphabet x 10
+ * print_alphabet_x10 - prints alphabet ten times
  * @c: character to use
- * Return: void
  */
-
 void print_alphabet_x10(void)
 {
 	char c;

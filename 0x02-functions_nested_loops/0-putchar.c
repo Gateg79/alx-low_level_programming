@@ -1,12 +1,11 @@
 #include "main.h"
-
 /**
  * main - main bloch=k
  * Return:0
  */
 int main(void)
 {
-char c[10] = "Main";
+char c[10] = "_putchar";
 int i = 0;
 while (i < 9)
 {

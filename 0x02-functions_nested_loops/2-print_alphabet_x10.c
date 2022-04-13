@@ -5,10 +5,7 @@
  * @c: character to use
  * Return: void
  */
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
+
 void print_alphabet_x10(void)
 {
 	char c;
@@ -25,4 +22,9 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 		i++;
 	}
+}
+int main(void)
+{
+	print_alphabet_x10();
+	return (0);
 }

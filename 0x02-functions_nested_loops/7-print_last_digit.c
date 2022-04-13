@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_;ast_digit - return last digit
+ * print_last_digit - return last digit
  * @n : number to check
  * Return: 0 or 1
  */

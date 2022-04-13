@@ -1,11 +1,14 @@
 #include "main.h"
 
 /*
- * print_alphabet_x10(void) - prints alphabet x 10 
+ * print_alphabet_x10(void) - prints alphabet x 10
  * @c: character to use
  * Return: void
  */
-
+int main(void)
+{
+	print_alphabet_x10();
+	return (0);
 void print_alphabet_x10(void)
 {
 	char c;

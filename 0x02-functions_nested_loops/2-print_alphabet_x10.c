@@ -2,6 +2,8 @@
 /*
  * print_alphabet_x10 - prints alphabet ten times
  * @c: character to use
+ *
+ * Description: Prints alphabet ten times
  */
 void print_alphabet_x10(void)
 {

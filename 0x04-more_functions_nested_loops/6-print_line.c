@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *void print_line - print line n times
+ * print_line - print line n times
  *
  */
 void print_line(int n)

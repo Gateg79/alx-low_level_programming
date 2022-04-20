@@ -1,8 +1,11 @@
 #include "main.h"
+
 /**
  * print_line - print line n times
- *
+ * @n: no of times of print line
+ * Return:void
  */
+
 void print_line(int n)
 {
 int i = 0;

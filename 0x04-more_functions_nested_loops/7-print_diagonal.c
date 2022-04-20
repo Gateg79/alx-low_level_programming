@@ -2,22 +2,22 @@
 
 /**
  * print_diagonal - print reapeated backslash
- * @n : number of \ to be printed
+ * @n : number of \\ to be printed
  * Return:void
  */
 
 void print_diagonal(int n)
 {
 
-	int i = 0, ii;
+	int i = 0, b;
 
 	while (i < n && n > 0)
 	{
-		ii = 0;
-		while (ii < i)
+		b = 0;
+		while (b < i)
 		{
 			_putchar(' ');
-			ii++;
+			b++;
 		}
 
 		_putchar('\\');
@@ -25,6 +25,6 @@ void print_diagonal(int n)
 		i++;
 	}
 	if (i == 0)
-		_putchar('\n');
+	_putchar('\n');
 
 }

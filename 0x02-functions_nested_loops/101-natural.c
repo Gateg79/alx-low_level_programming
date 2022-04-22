@@ -9,7 +9,6 @@ int main(void)
 {
 	int c = 0;
 	int sum = 0;
-	c++;
 
 	while (c < 1024)
 	{
@@ -18,6 +17,7 @@ int main(void)
 			sum += c;
 		
 		}
+		c++;
 	}
 	printf("%i/n", sum);
 return (0);

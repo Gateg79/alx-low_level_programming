@@ -19,5 +19,5 @@ int main(void)
 		c++;
 	}
 	printf("%i/n", sum);
-	returm (0);
+return (0);
 }

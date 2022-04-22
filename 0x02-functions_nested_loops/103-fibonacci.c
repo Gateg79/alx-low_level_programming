@@ -1,10 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - fibonacci numbers
  * Return: 0
  */
-
 int main(void)
 {
 int a = 0, sum = 0, b = 1, next = 0;

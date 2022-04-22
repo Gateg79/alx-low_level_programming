@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.n>
+#include <stdlib.h>
 /**
  * main - entry point
  * Description:computes and prints sum below 1024

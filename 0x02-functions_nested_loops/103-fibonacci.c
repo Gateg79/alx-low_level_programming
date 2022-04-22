@@ -13,6 +13,7 @@ while (next < 4000000)
 	b = next;
 	if (next % 2 == 0)
 		sum += next;
+	else; continue;
 }
 printf("%i\n", sum);
 return (0);

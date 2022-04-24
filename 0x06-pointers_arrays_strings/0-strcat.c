@@ -1,8 +1,9 @@
 #include "main.h"
 /**
+ * _strcat - appends src to the dest string
  * @dest: pointer destination
  * @src: pointer source
- * Return: void
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {

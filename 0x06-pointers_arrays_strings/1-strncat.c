@@ -4,8 +4,8 @@
  * @dest: string to append by src
  * @src: string to append to dest
  * @n: largest number of bytes to append
- * Description: no null termination weth >=n bytes
- * Return: Pointer to dest
+ * 
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {

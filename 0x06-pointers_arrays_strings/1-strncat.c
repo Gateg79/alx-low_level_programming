@@ -3,15 +3,13 @@
  * _strncat - appends src to the dest string
  * @dest: string to append by src
  * @src: string to append to dest
- * @n: largest number of bytes to append
- * 
+ * @n: largest bytes to append
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
+	int i = 0, j = 0;
 
-	i = j = 0;
 	while (*dest + i)
 		i++;
 	while (j < n && *(src + j))

@@ -5,19 +5,22 @@
  * @accept: s bytes limit
  * Return: number of bytes of s in accept
  */
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, j;
+	unsigned int c = 0;
+	char *t = accept;
 
-	for (i = 0; s[i]; i++)
+	while (*s++)
 	{
-		for (j = 0; accept[j]; j++)
-		{
-			if (s[i] == accept[j])
+		while (*accept++)
+			if (*(s - 1) == *(accept - 1))
+			{
+				c++;
 				break;
-		}
-		if (!accept[j])
+			}
+		if (!(*--accept))
 			break;
+		accept = t;
 	}
-	return (i);
+	return (c);
 }

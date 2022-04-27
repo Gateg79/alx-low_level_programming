@@ -8,7 +8,8 @@
  * Return: pointer to byte ins that matches or NULL if no match
  */
 char *_strbrk(char *s, char *accept)
-{int i;
+{
+	int i;
 
 	while (*s)
 	{

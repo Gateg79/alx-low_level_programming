@@ -7,15 +7,15 @@
  *
  * Return: pointer to byte ins that matches or NULL if no match
  */
-char *_strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-	int i;
+	int c;
 
 	while (*s)
 	{
-		for (i = 0; accept[i]; i++)
+		for (c = 0; accept[c]; c++)
 		{
-			if (*s == accept[i])
+			if (*s == accept[c])
 			{
 				return (s);
 			}

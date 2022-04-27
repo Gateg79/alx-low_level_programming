@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strstr = locates a substring
  * @haystack: string in which to check for needle
@@ -6,6 +7,7 @@
  *
  * Return: beginning of needle pointer or NULL if no substring
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 	char *result = haystack, *fneedle = needle;

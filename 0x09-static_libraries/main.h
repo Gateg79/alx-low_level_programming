@@ -1,5 +1,7 @@
-#ifndef MAIN_
+#ifndef MAIN_H
 #define MAIN_H   
+
+/*copy list from task*/
 
 int _putchar(char c);
 int _islower(int c);

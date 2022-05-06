@@ -5,14 +5,14 @@
  * str_concat - concatenates two strings
  * @s1: string 1
  * @s2: string 2
- * 
+ *
  * Return: NULL on failure
  */
 char *str_concat(char *s1, char *s2)
 {
 	unsigned int i, j, k, l;
 	char *s;
-	
+
 	if (s1 == NULL)
 		i = 0;
 	else

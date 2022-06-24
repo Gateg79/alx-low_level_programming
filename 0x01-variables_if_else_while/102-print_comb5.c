@@ -1,49 +1,32 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main - void
- * Description
+ * main - create 2 pairs of number
  * Return: 0
  */
 int main(void)
 {
-int c;
-int d;
-int e;
-int f = 0;
+	int i, j;
 
-while (f < 10)
-{
-	e = 0;
-	while (e < 10)
+	for (i = 0; i <= 99; i++)
 	{
-		d = 0;
-		while (d < 10)
+		for (j = i; j <= 99; j++)
 		{
-			c = 0;
-			while (c < 10)
+			if (j != i)
 			{
-				if (!(f == c && e == d))
+				putchar(i / 10 + 48);
+				putchar(i % 10 + 48);
+				putchar(' ');
+				putchar(j / 10 + 48);
+				putchar(j % 10 + 48);
+
+				if (i * 100 + j != 9899)
 				{
-					putchar('0' + f);
-					putchar('0' + e);
+					putchar(',');
 					putchar(' ');
-					putchar('0' + d);
-					putchar('0' + c);
-					if (!(f + e == 18 && c + d == 17 && d == 9))
-					{
-						putchar(',');
-						putchar(' ');
-					}
 				}
-				c++;
 			}
-			d++;
 		}
-		e++;
 	}
-	f++;
-}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }

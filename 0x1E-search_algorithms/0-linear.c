@@ -24,5 +24,6 @@ int linear_search(int *array, size_t size, int value)
 		if (value == array[b])
 			return (b);
 	}
+
 	return (-1);
 }

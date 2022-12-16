@@ -44,7 +44,7 @@ int binary_search(int *array, size_t size, int value)
 		{
 			b = (h + a) / 2;
 			if (array[b] < value)
-				h = b - 1;
+				h = b + 1;
 			else if (array[b] > value)
 				a = b;
 			else
@@ -52,7 +52,6 @@ int binary_search(int *array, size_t size, int value)
 			print_array(array + h, a + 1 - h);
 		}
 	}
-
 	return (-1);
 }
 

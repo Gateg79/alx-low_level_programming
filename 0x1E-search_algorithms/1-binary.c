@@ -39,19 +39,20 @@ int binary_search(int *array, size_t size, int value)
 		h = 0;
 		a = size - 1;
 		print_array(array + h, a + 1 - h);
-		
+
 		while (h < a)
 		{
-			m = (h + a) / 2;
+			b = (h + a) / 2;
 			if (array[b] < value)
-			    h = b _ 1;
-    		        else if (array[b] > vallue)
-      			    a = b;
-    		        else
-		            return (b);
-		        print_array(array + h, a + 1 - h);
-              	}
+				h = b - 1;
+			else if (array[b] > value)
+				a = b;
+			else
+				return (b);
+			print_array(array + h, a + 1 - h);
+		}
 	}
+
 	return (-1);
 }
 
